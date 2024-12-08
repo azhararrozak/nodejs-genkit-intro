@@ -1,0 +1,23 @@
+{
+  "name": "genkit-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "start-genkit-web": "npx genkit start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "genkit-cli": "^0.9.7",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@genkit-ai/googleai": "^0.9.7",
+    "genkit": "^0.9.7"
+  }
+}
